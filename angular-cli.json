@@ -18,9 +18,13 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
+        "../node_modules/foundation-sites/dist/foundation-flex.css",
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/foundation-sites/vendor/jquery/dist/jquery.min.js",
+        "../node_modules/foundation-sites/dist/foundation.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
