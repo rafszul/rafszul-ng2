@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { SiteHeaderComponent } from './site-header.component';
-
+import { HeaderSubnavComponent } from './header-subnav/header-subnav.component';
+import { FooterSubnavComponent } from './footer-subnav/footer-subnav.component';
 
 @Component({
   selector: 'app-root',
