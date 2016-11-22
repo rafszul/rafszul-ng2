@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-header-subnav',
   templateUrl: './header-subnav.component.html',
-  styleUrls: ['/styles/subnav.component.scss']
+  styleUrls: ['./header-subnav.component.scss']
 })
 export class HeaderSubnavComponent implements OnInit {
 

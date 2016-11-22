@@ -1,23 +1,23 @@
-$header-bg: #074E68;
+$app-body-bg: #074E68;
 $subnav-link-padding: 0.9rem;
 $subnav-font-size: 0.75rem;
 $subnav-link-opacity: 0.15;
-$header-height: 2.5rem;
+$app-body-height: 2.5rem;
 $transition: all .35s ease-in-out;
-.header {
+.app-body {
   text-align: center;
-  background: $header-bg;
+  background: $app-body-bg;
   background-size: cover;
   position: relative;
   overflow: visible;
-  padding-top: $header-height;
-  padding-bottom: $header-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
+  padding-top: $app-body-height;
+  padding-bottom: $app-body-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
   .headline {
     color: #ffe;
   }
 }
 
-.header-subnav {
+.app-body-subnav {
   float: none;
   position: absolute;
   text-align: center;

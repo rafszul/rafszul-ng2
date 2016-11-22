@@ -1,4 +1,23 @@
-.header-subnav {
+$footer-bg: #074E68;
+$subnav-link-padding: 0.9rem;
+$subnav-font-size: 0.75rem;
+$subnav-link-opacity: 0.15;
+$footer-height: 2.5rem;
+$transition: all .35s ease-in-out;
+.footer {
+  text-align: center;
+  background: $footer-bg;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  padding-top: $footer-height;
+  padding-bottom: $footer-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
+  .headline {
+    color: #ffe;
+  }
+}
+
+.footer-subnav {
   float: none;
   position: absolute;
   text-align: center;

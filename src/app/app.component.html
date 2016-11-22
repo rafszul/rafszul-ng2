@@ -1,24 +1,4 @@
-<header class="header">
-  <div class="row">
-    <div class="small-6 large-2 columns">
-      <!-- 6/6/2 columns >
-    <h1>{{title}}</h1-->
-    </div>
-    <div class="small-6 large-2 columns">
-      <!-- 6/6/4 columns >
-  <img src="/assets/arthur.svg" alt=""--></div>
-    <div class="small-12 large-8 columns">
-      <!-- 12/12/8 -->
-      <img src="/assets/rafszul.svg" alt=""></div>
-  </div>
-  <h1 class="headline">
-    <h1>{{title}}</h1><small></small></h1>
-  <ul class="header-subnav">
-    <li><a href="#">Take Action!</a></li>
-    <li><a href="#" class="is-active">Carpe Diem!</a></li>
-    <li><a target="_blank" href="http://zurb.com/responsive">Just do it!</a></li>
-  </ul>
-</header>
+<app-header-subnav></app-header-subnav>
 <!--div class="top-bar">
   <div class="top-bar-left">
     <ul class="menu">
@@ -29,12 +9,19 @@
     </ul>
   </div>
 </div-->
-<div class="callout large primary">
-  <div class="row column text-center">
-    <h1>Our Blog</h1>
-    <h2 class="subheader">Such a Simple Blog Layout</h2>
+<div class="app-body">
+    <h1 class="headline">Our Blog</h1>
+    <small>Such a Simple Blog Layout</small>
+
+
+
+  <ul class="app-body-subnav">
+    <li><a href="#">Take Action!</a></li>
+    <li><a href="#" class="is-active">Carpe Diem!</a></li>
+    <li><a target="_blank" href="http://zurb.com/responsive">Just do it!</a></li>
+  </ul>
   </div>
-</div>
+
 <!-- <div class="row medium-8 large-7 columns">
   <div class="blog-post">
     <h3>Awesome blog post title <small>3/6/2016</small></h3>
@@ -89,3 +76,5 @@
     </div>
   </div>
 </div> -->
+
+<app-footer-subnav></app-footer-subnav>
