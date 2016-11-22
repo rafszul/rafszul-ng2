@@ -19,6 +19,7 @@
       "mobile": false,
       "styles": [
         "../node_modules/foundation-sites/dist/foundation-flex.css",
+        "http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css",
         "styles.scss"
       ],
       "scripts": [
