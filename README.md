@@ -1,4 +1,29 @@
-# rafszul
+# rafszul-NG2
+
+source code for rafszul.github.io which in turn boasts to be a:
+
+- built on solid
+- foundation,
+- angular2 single page app.
+
+project structured accordingly with [angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html#) with:
+
+- typescript
+- angular-cli and
+- webpack
+
+that come with every angular-cli `ng new ...` comand.
+
+in addition:
+
+- foundation
+- codelyzer
+- jasmine
+- karma
+- istanbul
+- protractor
+
+---
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.18.
 
