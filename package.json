@@ -1,7 +1,21 @@
 {
-  "name": "rafszul",
+  "name": "rafszul-ng2",
+  "description": "source code for rafszul.github.io built with angular 2 and foundation",
   "version": "0.0.0",
+  "author": "rafszul <rafszul@gmail.com> (http://rafszul.projekt-kreatywa.com/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafszul/rafszul-ng2"
+  },
+  "bugs": {
+    "url": "https://github.com/rafszul/rafszul-ng2/issues"
+  },
+  "keywords": [
+    "angular 2",
+    "github page",
+    "rafszul"
+  ],
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
@@ -45,3 +59,4 @@
     "typescript": "~2.0.3"
   }
 }
+
