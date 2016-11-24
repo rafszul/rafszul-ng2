@@ -1,27 +1,21 @@
 # rafszul-NG2
 
-source code for rafszul.github.io which in turn boasts to be a:
+source code for rafszul.github.io
 
-- built on solid
-- foundation,
-- angular2 single page app.
+this incarnation is an angular2 app built on syntaticly awesome foundation and structured as prescribed by [angular style guide].(https://angular.io/docs/ts/latest/guide/style-guide.html#) 
 
-project structured accordingly with [angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html#) with:
+featuring all that stuff that comes with every angular-cli `ng new ...` comand:
 
-- typescript
+- typescript,
 - angular-cli and
-- webpack
-
-that come with every angular-cli `ng new ...` comand.
-
-in addition:
-
-- foundation
-- codelyzer
-- jasmine
-- karma
-- istanbul
-- protractor
+- webpack. already mentioned
+- foundation and
+- scss. baked in tests in:
+- jasmine,
+- karma,
+- istanbul.
+- protractor for e2e tests and
+- loads of other stuff. check out package.json to get the idea about all that's in.
 
 ---
 
