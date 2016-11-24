@@ -2,7 +2,7 @@
 
 source code for rafszul.github.io
 
-this incarnation is an angular2 app built on syntaticly awesome foundation and structured as prescribed by [angular style guide].(https://angular.io/docs/ts/latest/guide/style-guide.html#) 
+this incarnation is an angular2 app built on syntaticly awesome foundation and structured as prescribed by [angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html#) 
 
 featuring all that stuff that comes with every angular-cli `ng new ...` comand:
 
@@ -10,12 +10,12 @@ featuring all that stuff that comes with every angular-cli `ng new ...` comand:
 - angular-cli and
 - webpack. already mentioned
 - foundation and
-- scss. baked in tests in:
+- scss. baked in tests by:
 - jasmine,
 - karma,
 - istanbul.
 - protractor for e2e tests and
-- loads of other stuff. check out package.json to get the idea about all that's in.
+- loads of other stuff. check out [package.json](https://github.com/rafszul/rafszul-ng2/blob/master/package.json) to get the idea about all that's in.
 
 ---
 
@@ -49,3 +49,8 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+---
+
+<script src="https://gist.github.com/rafszul/29e74b0eafe0cd8f2d923ef60d9053bd.js"></script>
+
