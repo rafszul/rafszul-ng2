@@ -2,19 +2,18 @@
 
 source code for rafszul.github.io
 
-this incarnation is an angular2 app built on syntaticly awesome foundation and structured as prescribed by [angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html#) 
+this incarnation is an [angular2](https://angular.io/) app built on [syntaticly awesome](http://sass-lang.com/) [foundation](http://foundation.zurb.com/sites.html) and structured as prescribed by [angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html#) 
 
-featuring all that stuff that comes with every angular-cli `ng new ...` comand:
+featuring all that stuff that comes with every [angular-cli](https://cli.angular.io/) `ng new ...` comand:
 
-- typescript,
-- angular-cli and
-- webpack. already mentioned
-- foundation and
-- scss. baked in tests by:
-- jasmine,
-- karma,
-- istanbul.
-- protractor for e2e tests and
+- [typescript](https://www.typescriptlang.org/) and
+- [webpack](https://webpack.github.io/). already mentioned
+- [foundation](http://foundation.zurb.com/sites.html) and
+- [scss](http://sass-lang.com/). baked in tests by:
+- [jasmine](https://jasmine.github.io/),
+- [karma](https://karma-runner.github.io/1.0/index.html),
+- [istanbul](https://istanbul.js.org/) for coverage and 
+- [protractor](http://www.protractortest.org/#) for e2e tests and
 - loads of other stuff. check out [package.json](https://github.com/rafszul/rafszul-ng2/blob/master/package.json) to get the idea about all that's in.
 
 ---
