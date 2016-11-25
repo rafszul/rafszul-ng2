@@ -14,6 +14,7 @@ import { MyWorkComponent } from './my-work/my-work.component';
 import { MyCvComponent } from './my-cv/my-cv.component';
 import { ContactComponent } from './contact/contact.component';
 import { LostComponent } from './lost/lost.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LostComponent } from './lost/lost.component';
     MyWorkComponent,
     MyCvComponent,
     ContactComponent,
-    LostComponent
+    LostComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
