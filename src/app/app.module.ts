@@ -7,13 +7,21 @@ import { AppComponent } from './app.component';
 
 import { HeaderSubnavComponent } from './header-subnav/header-subnav.component';
 import { FooterSubnavComponent } from './footer-subnav/footer-subnav.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { MyWorkComponent } from './my-work/my-work.component';
+import { MyCvComponent } from './my-cv/my-cv.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderSubnavComponent,
-    FooterSubnavComponent
+    FooterSubnavComponent,
+    AboutMeComponent,
+    MyWorkComponent,
+    MyCvComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
