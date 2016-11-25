@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 
@@ -13,6 +14,14 @@ import { MyCvComponent } from './my-cv/my-cv.component';
 import { ContactComponent } from './contact/contact.component';
 import { LostComponent } from './lost/lost.component';
 
+const appRoutes: Routes = [
+  { path: 'about-me/about-me', component: AboutMeComponent },
+  { path: 'my-work/my-work', component: MyWorkComponent },
+  { path: 'my-cv/my-cv', component: MyCvComponent },
+  { path: 'contact/contact', component: ContactComponent},
+  { path: '', component: AppComponent },
+  { path: '**', component: LostComponent }
+];
 
 @NgModule({
   declarations: [
@@ -28,7 +37,8 @@ import { LostComponent } from './lost/lost.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
