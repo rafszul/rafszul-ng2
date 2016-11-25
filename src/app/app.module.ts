@@ -15,10 +15,10 @@ import { ContactComponent } from './contact/contact.component';
 import { LostComponent } from './lost/lost.component';
 
 const appRoutes: Routes = [
-  { path: 'about-me/about-me', component: AboutMeComponent },
-  { path: 'my-work/my-work', component: MyWorkComponent },
-  { path: 'my-cv/my-cv', component: MyCvComponent },
-  { path: 'contact/contact', component: ContactComponent},
+  { path: 'about-me', component: AboutMeComponent },
+  { path: 'my-work', component: MyWorkComponent },
+  { path: 'my-cv', component: MyCvComponent },
+  { path: 'contact', component: ContactComponent},
   { path: '', component: AppComponent },
   { path: '**', component: LostComponent }
 ];
