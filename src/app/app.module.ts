@@ -11,6 +11,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { MyWorkComponent } from './my-work/my-work.component';
 import { MyCvComponent } from './my-cv/my-cv.component';
 import { ContactComponent } from './contact/contact.component';
+import { LostComponent } from './lost/lost.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutMeComponent,
     MyWorkComponent,
     MyCvComponent,
-    ContactComponent
+    ContactComponent,
+    LostComponent
   ],
   imports: [
     BrowserModule,
