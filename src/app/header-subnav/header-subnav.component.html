@@ -9,8 +9,6 @@
   <img src="/assets/arthur.svg" alt=""--></div>
     <div class="small-12 large-6 columns">
       <!-- 12/12/6 -->
-
-
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 520 170">
         <defs id="svgEditorDefs">
           <filter id="f039" inkscape:label="Inset" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:menu="Shadows and Glows"
@@ -217,18 +215,22 @@
           </radialGradient>
         </defs>
         <style>
-	 *{
-	    pointer-events: fill;
-	    }
-	    #logo path{
-	 	-webkit-transition: fill .4s ease;
-	 	-moz-transition: fill .4s ease;
-	 	-o-transition: fill .4s ease;
-	 	transition: fill .4s ease;
-	 	fill:"url(#f072)";
-	 }
-	 	#logo:hover path {
-	 	fill:red;}
+          * {
+            pointer-events: fill;
+          }
+          
+          #logo path {
+            -webkit-transition: fill .4s ease;
+            -moz-transition: fill .4s ease;
+            -o-transition: fill .4s ease;
+            transition: fill .4s ease;
+            fill: "url(#f072)";
+          }
+          
+          #logo:hover path {
+            fill: red;
+          }
+
         </style>
         <g id="logo" fill="url(#f131)" fill-opacity=".3" stroke="#000" stroke-opacity=".4" filter="url(#f072)">
           <a xlink:href="http://rafszul.projekt-kreatywa.com/" target="_blank">
@@ -287,8 +289,6 @@
           </g>
         </g>
       </svg>
-
-
       <!--img src="/assets/rafszul.svg" alt=""-->
     </div>
   </div>
@@ -300,9 +300,11 @@
       <a routerLink="/about-me" routerLinkActive="is-active">about me</a></li>
     <li>
       <a routerLink="/my-work" routerLinkActive="is-active" class="is-active">my work</a>
-      <!--a href="#" class="is-active">Carpe Diem!</a--></li>
+      <!--a href="#" class="is-active">Carpe Diem!</a-->
+    </li>
     <li>
       <a routerLink="/contact" routerLinkActive="is-active">contact</a>
-       <!--a target="_blank" href="http://zurb.com/responsive">Just do it!</a--></li>
+      <!--a target="_blank" href="http://zurb.com/responsive">Just do it!</a-->
+    </li>
   </ul>
 </header>
