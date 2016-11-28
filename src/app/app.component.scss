@@ -1,6 +1,6 @@
 
 
-$app-body-bg: #074E68;
+$app-body-bg: #fff;
 $app-main-font: 'Source Code Pro', monospace;
 $subnav-link-padding: 0.9rem;
 $subnav-font-size: 0.75rem;
@@ -8,7 +8,7 @@ $subnav-link-opacity: 0.15;
 $app-body-height: 2.5rem;
 $transition: all .35s ease-in-out;
 .app-body {
-  text-align: center;
+  text-align: right;
   background: $app-body-bg;
   background-size: cover;
   position: relative;
@@ -16,7 +16,7 @@ $transition: all .35s ease-in-out;
   padding-top: $app-body-height;
   padding-bottom: $app-body-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
   .headline {
-    color: #ffe;
+    color: #474747;
   }
 }
 
@@ -33,10 +33,10 @@ $transition: all .35s ease-in-out;
     a {
       padding: $subnav-link-padding 1rem;
       font-size: $subnav-font-size;
-      color: #ffe;
+      color: #474747;
       text-transform: uppercase;
       display: block;
-      font-weight: bold;
+      font-weight: 400;
       letter-spacing: 1px;
       transition: $transition;
       &.is-active {

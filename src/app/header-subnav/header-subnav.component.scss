@@ -1,6 +1,6 @@
 $header-bg: #074E68;
 $subnav-link-padding: 0.9rem;
-$subnav-font-size: 0.75rem;
+$subnav-font-size: 1rem;
 $subnav-link-opacity: 0.15;
 $header-height: 2.5rem;
 $transition: all .35s ease-in-out;
@@ -33,7 +33,7 @@ $transition: all .35s ease-in-out;
       color: #ffe;
       text-transform: uppercase;
       display: block;
-      font-weight: 900;
+      font-weight: bold;
       letter-spacing: 1px;
       transition: $transition;
       &.is-active {
