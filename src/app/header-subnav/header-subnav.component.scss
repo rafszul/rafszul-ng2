@@ -33,7 +33,7 @@ $transition: all .35s ease-in-out;
       color: #ffe;
       text-transform: uppercase;
       display: block;
-      font-weight: $font-bold;
+      font-weight: 900;
       letter-spacing: 1px;
       transition: $transition;
       &.is-active {
