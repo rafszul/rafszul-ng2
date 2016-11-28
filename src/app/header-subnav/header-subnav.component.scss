@@ -33,7 +33,7 @@ $transition: all .35s ease-in-out;
             color: #474747;
             text-transform: uppercase;
             display: block;
-            letter-spacing: 1px;
+            letter-spacing: 4px;
             transition: $transition;
             &.is-active {
                 text-decoration: underline;
