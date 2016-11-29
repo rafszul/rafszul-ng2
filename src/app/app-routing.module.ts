@@ -15,7 +15,7 @@ const appRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'about-me', component: AboutMeComponent },
     { path: 'my-work', component: MyWorkComponent },
-    { path: 'my-cv', component: MyCvComponent },
+    //    { path: 'my-cv', component: MyCvComponent },
     { path: 'contact', component: ContactComponent},
     { path: '**', component: LostComponent }
 ];
