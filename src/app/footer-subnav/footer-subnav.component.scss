@@ -25,15 +25,14 @@ $transition: all .35s ease-in-out;
     bottom: 0;
     width: 100%;
     li {
-        //* //* float: none; float takes no effect when display set to inline-block, uncoment if display changes float takes no effect when display set to inline-block, uncoment if display changes
         display: inline-block;
         a {
-            padding: $subnav-link-padding 1rem;
+            padding: $subnav-link-padding;
             font-size: $subnav-font-size;
             color: #474747;
             text-transform: uppercase;
             display: block;
-            letter-spacing: 1px;
+            letter-spacing: 4px;
             transition: $transition;
             &.is-active {
                 text-decoration: underline;
