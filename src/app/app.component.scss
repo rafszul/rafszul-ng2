@@ -129,5 +129,11 @@ a {
 }
 
 button {
+    font-family: $app-main-font;
+    font-size: $subnav-font-size + 0.5rem;
+    color: #474747;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-style: none;
     text-align: right;
 }
