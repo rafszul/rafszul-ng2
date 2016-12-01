@@ -7,26 +7,29 @@
       Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla
       enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
   </div>
+
+  <hr>
+
+  <div>
   <form id="contact-form" autocomplete="on">
-    <div>
-      <label for="name">
-        name:
-      </label>
-      <input type="text" class="form-control" id="name" required>
-    </div>
-    <div>
-      <label for="email">
-        email:
-      </label>
-      <input type="email" class="form-control" id="email" required>
-    </div>
-    <div>
-      <label for="msg">
-        message:
-      </label>
-      <textarea rows="4" cols="50" name="msg" form="contact-form">
-enter your message here...</textarea>
-    </div>
+
+    <label for="name">name:</label>
+    <input type="text" class="form-control" id="name" placeholder="your name goes here" aria-describedby="exampleHelpText" required>
+    <p class="help-text" id="exampleHelpText">arthur rimbaud</p>
+  
+    <label for="email">email:</label>
+    <input type="text" class="form-control" id="email" placeholder="your email address" aria-describedby="exampleHelpText" required>
+    <p class="help-text" id="exampleHelpText">arthur.rimbaud@seer.io</p>
+
+    <label for="msg">your message:
+    <textarea rows="4" cols="50" placeholder="enter your message here..."></textarea>
+    </label>
+    <br>
+    <label for="submit-btn">when you finished typing submit your message:</label>
     <button class="small expanded secondary hollow button" href="#">submit</button>
+
   </form>
+  </div>
+
+
 </div>
