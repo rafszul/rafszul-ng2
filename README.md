@@ -2,6 +2,8 @@
 
 source code for rafszul.github.io
 
+![](https://raw.githubusercontent.com/rafszul/rafszul-ng2/master/src/assets/rafszul.svg)
+
 this incarnation is an [angular2](https://angular.io/) app built on [syntaticly awesome](http://sass-lang.com/) [foundation](http://foundation.zurb.com/sites.html) and structured as prescribed by [angular style guide](https://angular.io/docs/ts/latest/guide/style-guide.html#) 
 
 featuring all that stuff that comes with every [angular-cli](https://cli.angular.io/) `ng new ...` comand:
