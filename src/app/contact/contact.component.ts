@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  value: any;
+  
+  submit(form) {
+    this.value = form; 
+  }
   constructor() { }
 
   ngOnInit() {
