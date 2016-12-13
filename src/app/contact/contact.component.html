@@ -38,9 +38,10 @@
     <label for="msg">your message:
     <textarea rows="4" cols="50" id="msg" placeholder="enter your message here..." name="msg" ngModel></textarea>
     </label>
+    <p class="help-text" id="exampleHelpText">you can see you data in JSON format below</p>
     <br>
     <label for="submit-btn">when you finished typing</label>
-    <button class="small expanded secondary hollow button" id="submit-btn" type="submit" href="#">submit your message</button>
+    <button class="small expanded secondary hollow button" id="submit-btn" type="submit">submit your message</button>
     <p class="help-text" id="exampleHelpText">i usually reply within two days to any profesional querries
       </p>
 
@@ -48,11 +49,10 @@
   </div>
 <br>
 <hr>
-
     <pre>
 {{form.value | json}}
     </pre>
-
+<hr>
 
 
 </div>

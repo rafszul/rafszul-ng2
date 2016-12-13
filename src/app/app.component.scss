@@ -90,7 +90,10 @@ h5 {
 }
 
 pre {
-        text-align: left;
+    font-size: $subnav-font-size - 0.3rem;
+    text-align: left;
+    color: #474747;
+
 }
 
 /* hr {
