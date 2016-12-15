@@ -1,55 +1,53 @@
-
-  <div class="headline">
+<div class="headline">
     <h3>hi there!
-      <small>... and thanks for your interest</small>
+        <small>... and thanks for your interest</small>
     </h3>
     <p>
-      first of all thanks for visiting my site</p>
-      <p>i hope you had a chance to look through my work, if not just follow the link in the navbar</p>
-      <p>
-      if you want to contact me with any questions, please fill in the form below and press submit to kick off the conversation
-      </p>
-  </div>
-  <div>
- <p>
-   if you just want to keep an eye on what i'm up to then <a target="_blank" href="https://twitter.com/rafszul">following me on twitter</a> is probably the best way to do so
-  </p>
-  <p>
-  thanks again for your interest!
-  </p>
+        first of all thanks for visiting my site</p>
+    <p>i hope you had a chance to look through my work, if not just follow the link in the navbar</p>
+    <p>
+        if you want to contact me with any questions, please fill in the form below and press submit to kick off the conversation
+    </p>
+</div>
+<div>
+    <p>
+        if you just want to keep an eye on what i'm up to then <a target="_blank" href="https://twitter.com/rafszul">following me on twitter</a> is probably the best way to do so
+    </p>
+    <p>
+        thanks again for your interest!
+    </p>
 </div>
 
-  <hr>
+<hr>
 
-  <div class="container">
-  <form id="contact-form" #form="ngForm" (ngSubmit)="submit(form.value)" novalidate autocomplete="off">
+<div class="container">
+    <form id="contact-form" #form="ngForm" (ngSubmit)="submit(form.value)" novalidate autocomplete="off">
 
-    <label for="name">name:</label>
-    <input type="text" class="form-control" id="name" placeholder="your name goes here" aria-describedby="exampleHelpText" required name="name" ngModel>
-    <p class="help-text" id="exampleHelpText">example: arthur rimbaud</p>
-  
-    <label for="email">email:</label>
-    <input type="email" class="form-control" id="email" placeholder="your email address" aria-describedby="exampleHelpText" required name="email" ngModel>
-    <p class="help-text" id="exampleHelpText">example: arthur.rimbaud@seer.io</p>
+        <label for="name">name:</label>
+        <input type="text" class="form-control" id="name" placeholder="your name goes here" aria-describedby="exampleHelpText" required name="name" ngModel>
+        <p class="help-text" id="exampleHelpText">example: arthur rimbaud</p>
 
-    <label for="msg">your message:
+        <label for="email">email:</label>
+        <input type="email" class="form-control" id="email" placeholder="your email address" aria-describedby="exampleHelpText" required name="email" ngModel>
+        <p class="help-text" id="exampleHelpText">example: arthur.rimbaud@seer.io</p>
+
+        <label for="msg">your message:
     <textarea rows="4" cols="50" id="msg" placeholder="enter your message here..." name="msg" ngModel></textarea>
     </label>
-    <p class="help-text" id="exampleHelpText">you can see you data in JSON format below</p>
-    <br>
-    <label for="submit-btn">when you finished typing</label>
-    <button class="small expanded secondary hollow button" id="submit-btn" type="submit">submit your message</button>
-    <p class="help-text" id="exampleHelpText">i usually reply within two days to any profesional querries
-      </p>
+        <p class="help-text" id="exampleHelpText">you can see you data in JSON format below</p>
+        <br>
+        <label for="submit-btn">when you finished typing</label>
+        <button class="small expanded secondary hollow button" id="submit-btn" type="submit">submit your message</button>
+        <p class="help-text" id="exampleHelpText">i usually reply within two days to any profesional querries
+        </p>
 
-  </form>
-  </div>
+    </form>
+</div>
+
 <hr>
 <div id="form-submision-data">
-  <pre>
+    <pre>
     {{form.value | json}}
     </pre>
 </div>
 <hr>
-
-
